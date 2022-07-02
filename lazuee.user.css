@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          	lazuee
 @namespace     	Lazuee
-@version        1.0.7
+@version        1.0.8
 @homepageURL   	https://github.com/lazuee/stylus-theme
 @updateURL      https://github.com/lazuee/stylus-theme/raw/main/lazuee.user.css
 @description    `This is my custom made themes for Discord, Facebook, Messenger, Youtube`
@@ -2503,11 +2503,18 @@ domain("messenger.com") {
 		background: var(--scnr) !important;
 		filter: brightness(1.02) !important
 	}
-	._6luv {
+	._6luv,
+	._8fgk ._8ien ._52lp,
+	._9bpz ._8ien ._52lp,
+	._8fgk ._8fgl,
+	._9bpz ._8fgl {
 
 		background: rgba(0, 0, 0, 0.22) !important;
 	}
-
+	._8fgk ._8fgl,
+	._9bpz ._8fgl {
+		border-top: 1px solid rgba(225, 225, 225, 0.22) !important;
+	}
 
 	div.bp9cbjyn.cwj9ozl2.qavdm89g.gsh9l1b6.lwukve8w.jpyiy761.j83agx80.qypqp5cg.taijpn5t.pmk7jnqg.hc5seken.q676j6op {
 		filter: none !important;
@@ -2681,14 +2688,20 @@ domain("messenger.com") {
 		background: var(--scnr) !important;
 		border: 1px solid var(--scnr) !important;
 	}
-
+	._8fgk ._58mf .uiStickyPlaceholderInput .placeholder {
+		background: transparent !important;
+	}
 	input {
 		cursor: inherit !important;
 	}
 	input {
+		border: none !important;
 		background: var(--scnr) !important;
 		color: var(--txnr) !important;
 		padding: 1.5rem;
+	}
+	.placeholder {
+		color: var(--txnr) !important;
 	}
 
 	input:invalid {
