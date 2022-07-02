@@ -2699,6 +2699,21 @@ domain("messenger.com") {
 	input:valid {
 		filter: none !important;
 	}
+	input:-webkit-autofill,
+	input:-webkit-autofill:hover,
+	input:-webkit-autofill:focus,
+	textarea:-webkit-autofill,
+	textarea:-webkit-autofill:hover,
+	textarea:-webkit-autofill:focus,
+	select:-webkit-autofill,
+	select:-webkit-autofill:hover,
+	select:-webkit-autofill:focus {
+		border: none !important;
+		background-color: var(--scnr) !important;
+		-webkit-text-fill-color: var(--txnr) !important;
+		-webkit-box-shadow: none !important;
+		transition: background-color 5000s ease-in-out 0s !important;
+	}
 	#facebook ._9nyi,
 	input#email.inputtext._55r1._6luy {
 		box-shadow: 0 0 0 1px rgb(255 255 255 / 5%) !important;
