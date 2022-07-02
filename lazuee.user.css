@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          	lazuee
 @namespace     	Lazuee
-@version        1.0.2
+@version        1.0.3
 @homepageURL   	https://github.com/lazuee/stylus-theme
 @updateURL      https://github.com/lazuee/stylus-theme/raw/main/lazuee.user.css
 @description    `This is my custom made themes for Discord, Facebook, Messenger, Youtube`
@@ -113,7 +113,6 @@ foreignObject {
 @advanced color ofn "\"Offline\" status color" #768797
 
 ==/UserStyle== */
-
 @-moz-document domain("discordapp.com"),
 domain("discord.com") {
 	/*[[th]]*/
@@ -2316,8 +2315,24 @@ regexp("https://plus.google.com/.*/notifications/frame?.*") {
 
 @-moz-document domain("facebook.com"),
 domain("messenger.com") {
-	div, .__fb-light-mode, .__fb-dark-mode,/*[[th]]*/
-	div, .__fb-light-mode, .__fb-dark-mode,:root {
+	div,
+	.__fb-light-mode,
+	.__fb-dark-mode,
+	/*[[th]]*/
+	div,
+	.__fb-light-mode,
+	.__fb-dark-mode,
+	:root {
+		--minr: /*[[min]]*/;
+		--scnr: /*[[scn]]*/;
+		--acnr: /*[[acn]]*/;
+		--txnr: /*[[txn]]*/;
+		--tmnr: /*[[tmn]]*/;
+	}
+	div,
+	.__fb-light-mode,
+	.__fb-dark-mode,
+	:root {
 		--minr: /*[[min]]*/;
 		--scnr: /*[[scn]]*/;
 		--acnr: /*[[acn]]*/;
@@ -2389,7 +2404,7 @@ domain("messenger.com") {
 		--media-pressed: rgba(68, 73, 80, 0.35);
 		--messenger-card-background: var(--bg);
 		--messenger-reply-background: #18191A;
-		--overlay-alpha-80: var(--bg4);
+		--overlay-alpha-80: rgba(0, 0, 0, 0.6);
 		--overlay-on-media: rgba(0, 0, 0, 0.6);
 		--nav-bar-background: var(--bg);
 		--nav-bar-background-gradient: linear-gradient(to top, #242526, rgba(36, 37, 38, .9), rgba(36, 37, 38, .7), rgba(36, 37, 38, .4), rgba(36, 37, 38, 0));
@@ -2404,7 +2419,7 @@ domain("messenger.com") {
 		--placeholder-text: #8A8D91;
 		--placeholder-text-on-media: rgba(255, 255, 255, 0.5);
 		--popover-background: var(--bg3);
-		--positive: #31A24C;
+		--positive: /*[[oln]]*/;
 		--positive-background: #1F3520;
 		--press-overlay: rgba(255, 255, 255, 0.1);
 		--primary-button-background: var(--accent);
@@ -2488,8 +2503,11 @@ domain("messenger.com") {
 	[aria-label="Messenger"] .hybvsw6c,
 	.cwj9ozl2,
 	._6luv {
-		background: var(--bg) !important;
-		filter: brightness(1) !important
+		background: var(--minr) !important;
+		filter: brightness(1.02) !important
+	}
+	div.bp9cbjyn.cwj9ozl2.qavdm89g.gsh9l1b6.lwukve8w.jpyiy761.j83agx80.qypqp5cg.taijpn5t.pmk7jnqg.hc5seken.q676j6op {
+		filter: none !important;
 	}
 	[class="gpro0wi8 cwj9ozl2 bzsjyuwj ja2t1vim"].cwj9ozl2 {
 		background: var(--bg4) !important;
@@ -2514,7 +2532,7 @@ domain("messenger.com") {
 		background: #00000026 !important
 	}
 	.b3i9ofy5 {
-		background: #00000026 !important;
+		background: rgba(0, 0, 0, 0.16) !important
 	}
 	[d="M15 35.8C6.5 34.3 0 26.9 0 18 0 8.1 8.1 0 18 0s18 8.1 18 18c0 8.9-6.5 16.3-15 17.8l-1-.8h-4l-1 .8z"] {
 		fill: var(--pi) !important;
@@ -2595,8 +2613,24 @@ domain("messenger.com") {
 	[d="M11 8.5A1.5 1.5 0 009.5 10v16a1.5 1.5 0 001.5 1.5h4a1.5 1.5 0 001.5-1.5V10A1.5 1.5 0 0015 8.5h-4zm10 0a1.5 1.5 0 00-1.5 1.5v16a1.5 1.5 0 001.5 1.5h4a1.5 1.5 0 001.5-1.5V10A1.5 1.5 0 0025 8.5h-4z"] {
 		fill: var(--pi)!important;
 	}
-	svg {
-		fill: var(--ac)!important;
+	.sbcfpzgs {
+		--T68779821: 0 2px 7pxvar(--shadow-2) !important;
+		box-shadow: 0 2px 7px var(--shadow-2) !important;
+	}
+	.is6700om {
+		background-color: transparent !important;
+	}
+	.oo1teu6h {
+		background: var(--minr) !important;
+		filter: brightness(1.8) !important;
+	}
+	div.bp9cbjyn.cwj9ozl2.qavdm89g.gsh9l1b6.lwukve8w.jpyiy761.j83agx80.qypqp5cg.taijpn5t.pmk7jnqg.hc5seken.q676j6op > div > svg {
+		fill: var(--ac) !important;
+		filter: brightness(1.8) !important;
+	}
+	div.bp9cbjyn.cwj9ozl2.qavdm89g.gsh9l1b6.lwukve8w.jpyiy761.j83agx80.qypqp5cg.taijpn5t.pmk7jnqg.hc5seken.q676j6op > div {
+
+		filter: opacity(0.5) !important;
 	}
 	::-webkit-scrollbar {
 		width: 7px!important;
