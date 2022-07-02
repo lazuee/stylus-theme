@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          	lazuee
 @namespace     	Lazuee
-@version        1.0.1
+@version        1.0.2
 @homepageURL   	https://github.com/lazuee/stylus-theme
 @updateURL      https://github.com/lazuee/stylus-theme/raw/main/lazuee.user.css
 @description    `This is my custom made themes for Discord, Facebook, Messenger, Youtube`
@@ -106,11 +106,11 @@ foreignObject {
 	border-radius: 25px EOT;
 }
 
-@advanced color oln "\"Online\" status color" #44B580
-@advanced color ddn "\"Do not disturb\" status color" #F04747
-@advanced color idn "\"Idle\" status color" #FAA81A
-@advanced color srn "\"Streaming\" status color" #593695
-@advanced color ofn "\"Offline\" status color" #747F8D
+@advanced color oln "\"Online\" status color" #82f79b
+@advanced color ddn "\"Do not disturb\" status color" #f76060
+@advanced color idn "\"Idle\" status color" #fdf94a
+@advanced color srn "\"Streaming\" status color" #6c3ddb
+@advanced color ofn "\"Offline\" status color" #768797
 
 ==/UserStyle== */
 
