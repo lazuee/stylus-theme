@@ -2656,4 +2656,60 @@ domain("messenger.com") {
 		margin-top: 10px !important;
 		background: var(--bg) !important;
 	}
+	._1gax {
+		background-color: var(--scnr) !important;
+	}
+	._1gbd {
+
+		box-shadow: 0 0 0 1px rgb(0 0 0 / 22%) !important;
+	}
+	._95l4 ._1ga- {
+		color: var(--ac) !important;
+	}
+	._1gaz {
+
+		background-color: rgba(0, 0, 0, 0.22) !important;
+	}
+	div._1gaz._c24._50f6 {
+		color: var(--ac) !important;
+		filter: brightness(0.8) !important;
+	}
+	html ._55r1 {
+		background: var(--scnr) !important;
+		border: 1px solid var(--scnr) !important;
+	}
+
+	input {
+		cursor: inherit !important;
+	}
+	input {
+		background: var(--scnr) !important;
+		color: var(--txnr) !important;
+		padding: 1.5rem;
+	}
+
+	input:invalid {
+		filter: none !important;
+	}
+
+	input:focus {
+		filter: brightness(1) !important;
+	}
+
+	input:valid {
+		filter: none !important;
+	}
+	#facebook ._9nyi,
+	input#email.inputtext._55r1._6luy {
+		box-shadow: 0 0 0 1px rgb(255 255 255 / 5%) !important;
+	}
+	._9ls8 {
+		background: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 640 512'%3E%3Cpath d='M320 400c-75.85 0-137.25-58.71-142.9-133.11L72.2 185.82c-13.79 17.3-26.48 35.59-36.72 55.59a32.35 32.35 0 0 0 0 29.19C89.71 376.41 197.07 448 320 448c26.91 0 52.87-4 77.89-10.46L346 397.39a144.13 144.13 0 0 1-26 2.61zm313.82 58.1l-110.55-85.44a331.25 331.25 0 0 0 81.25-102.07a32.35 32.35 0 0 0 0-29.19C550.29 135.59 442.93 64 320 64a308.15 308.15 0 0 0-147.32 37.7L45.46 3.37A16 16 0 0 0 23 6.18L3.37 31.45A16 16 0 0 0 6.18 53.9l588.36 454.73a16 16 0 0 0 22.46-2.81l19.64-25.27a16 16 0 0 0-2.82-22.45zm-183.72-142l-39.3-30.38A94.75 94.75 0 0 0 416 256a94.76 94.76 0 0 0-121.31-92.21A47.65 47.65 0 0 1 304 192a46.64 46.64 0 0 1-1.54 10l-73.61-56.89A142.31 142.31 0 0 1 320 112a143.92 143.92 0 0 1 144 144c0 21.63-5.29 41.79-13.9 60.11z' fill='rgba(255,255,255,0.33)'%3E%3C/path%3E%3C/svg%3E") no-repeat !important;
+	}
+	._9ls9 {
+		background: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 512 512'%3E%3Ccircle cx='256' cy='256' r='64' fill='rgba(255,255,255,0.33)'%3E%3C/circle%3E%3Cpath d='M394.82 141.18C351.1 111.2 304.31 96 255.76 96c-43.69 0-86.28 13-126.59 38.48C88.52 160.23 48.67 207 16 256c26.42 44 62.56 89.24 100.2 115.18C159.38 400.92 206.33 416 255.76 416c49 0 95.85-15.07 139.3-44.79C433.31 345 469.71 299.82 496 256c-26.38-43.43-62.9-88.56-101.18-114.82zM256 352a96 96 0 1 1 96-96a96.11 96.11 0 0 1-96 96z' fill='rgba(255,255,255,0.33)'%3E%3C/path%3E%3C/svg%3E") no-repeat !important;
+	}
+	div#u_0_9_Q4 > a {
+		color: var(--ac) !important;
+	}
 }
