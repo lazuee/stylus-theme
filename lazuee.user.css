@@ -116,24 +116,24 @@ foreignObject {
 domain("discord.com") {
 	/*[[th]]*/
 	/*online*/
-	.mask-1l8v16 rect[mask="url(#svg-mask-status-online)"],
-	.mask-1l8v16 rect[mask="url(#svg-mask-status-online-mobile)"] {
+	.mask-1FEkla rect[mask="url(#svg-mask-status-online)"],
+	.mask-1FEkla rect[mask="url(#svg-mask-status-online-mobile)"] {
 		fill: /*[[oln]]*/;
 	}
 	/*donotdisturb*/
-	.mask-1l8v16 rect[mask="url(#svg-mask-status-dnd)"] {
+	.mask-1FEkla rect[mask="url(#svg-mask-status-dnd)"] {
 		fill: /*[[ddn]]*/;
 	}
 	/*idle*/
-	.mask-1l8v16 rect[mask="url(#svg-mask-status-idle)"] {
+	.mask-1FEkla rect[mask="url(#svg-mask-status-idle)"] {
 		fill: /*[[idn]]*/;
 	}
 	/*streaming*/
-	.mask-1l8v16 rect[mask="url(#svg-mask-status-streaming)"] {
+	.mask-1FEkla rect[mask="url(#svg-mask-status-streaming)"] {
 		fill: /*[[srn]]*/;
 	}
 	/*offline*/
-	.mask-1l8v16 rect[mask="url(#svg-mask-status-offline)"] {
+	.mask-1FEkla rect[mask="url(#svg-mask-status-offline)"] {
 		fill: /*[[ofn]]*/;
 	}
 	:root {
