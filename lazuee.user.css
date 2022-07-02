@@ -2488,9 +2488,6 @@ domain("messenger.com") {
 	._8icy ._6lth {
 		background-color: var(--primary-button-background) !important
 	}
-	._8icy._9ah- ._6lth:hover {
-		background-color: var(--pi) !important
-	}
 	._8icy ._6ltj a {
 		color: rgba(225, 225, 225, 0.44) !important
 	}
@@ -2786,15 +2783,21 @@ domain("messenger.com") {
 	._8icy ._8icz {
 		border-bottom: 3px solid rgba(0, 0, 0, 0.22) !important;
 	}
-
 	._4jy2 {
 		background-color: var(--positive) !important;
 		color: rgba(0, 0, 0, 1) !important;
+	}
+	._4jy2:hover {
+		filter: brightness(1.2)!important;
 	}
 	._39il._97v_ ._52e0,
 	._8icy ._6lth {
 		background-color: var(--login) !important;
 		color: rgba(255, 255, 255, 0.88) !important;
+	}
+	._39il._97v_ ._52e0:hover,
+	._8icy ._6lth:hover {
+		filter: brightness(1.2)!important;
 	}
 
 	img.fb_logo._8ilh.img,
