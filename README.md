@@ -15,3 +15,6 @@ Note: Activate the websites own dark theme if they have one, as I (re)write over
 
 #### Install Theme
 [Click here to install](https://github.com/lazuee/stylus-theme/raw/main/lazuee.user.css) the theme.
+
+#### Demo?
+Try and See it,.
