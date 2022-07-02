@@ -18,7 +18,7 @@ Note: Activate the websites own dark theme if they have one, as I (re)write over
 
 #### Preview
 
-Used Theme 02
+Used Theme 01
 ![discord](https://user-images.githubusercontent.com/91590512/176990276-25fe8057-ba23-459b-ae59-3e0cb577b58a.png)
 ![youtube](https://user-images.githubusercontent.com/91590512/176990310-8bdb1812-c792-498f-b85a-a9b8f4ac55c9.png)
 ![facebook](https://user-images.githubusercontent.com/91590512/176990376-22d56a7d-1084-4485-858f-a30a93d6bbd2.png)
