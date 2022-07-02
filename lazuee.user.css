@@ -2381,7 +2381,7 @@ domain("messenger.com") {
 		--disabled-button-text: rgba(255, 255, 255, 0.3);
 		--disabled-icon: rgba(255, 255, 255, 0.3);
 		--disabled-text: rgba(255, 255, 255, 0.3);
-		--divider: var(--sh3);
+		--divider: var(--scnr);
 		--event-date: #F3425F;
 		--filter-accent: invert(80%);
 		--filter-always-white: invert(100%);
@@ -2419,7 +2419,8 @@ domain("messenger.com") {
 		--placeholder-text: rgba(112, 113, 114, .6);
 		--placeholder-text-on-media: rgba(255, 255, 255, 0.5);
 		--popover-background: var(--bg3);
-		--positive: /*[[oln]]*/;
+		--login: rgba(149, 184, 240, .72);
+		--positive: rgba(149, 240, 178, .72);
 		--positive-background: #1F3520;
 		--press-overlay: rgba(255, 255, 255, 0.1);
 		--primary-button-background: var(--accent);
@@ -2491,7 +2492,7 @@ domain("messenger.com") {
 		background-color: var(--pi) !important
 	}
 	._8icy ._6ltj a {
-		color: var(--lc) !important
+		color: rgba(225, 225, 225, 0.44) !important
 	}
 
 	[aria-label="New message"].ovq5dppa,
@@ -2501,11 +2502,16 @@ domain("messenger.com") {
 
 	[class="j83agx80 l9j0dhe7 k4urcfbm"] .cwj--blue-link.cwj9ozl2,
 	[aria-label="Messenger"] .hybvsw6c,
-	.cwj9ozl2,
-	._6luv {
-		background: var(--minr) !important;
+	.cwj9ozl2 {
+		background: var(--scnr) !important;
 		filter: brightness(1.02) !important
 	}
+	._6luv {
+
+		background: rgba(0, 0, 0, 0.22) !important;
+	}
+
+
 	div.bp9cbjyn.cwj9ozl2.qavdm89g.gsh9l1b6.lwukve8w.jpyiy761.j83agx80.qypqp5cg.taijpn5t.pmk7jnqg.hc5seken.q676j6op {
 		filter: none !important;
 	}
@@ -2664,15 +2670,15 @@ domain("messenger.com") {
 		box-shadow: 0 0 0 1px rgb(0 0 0 / 22%) !important;
 	}
 	._95l4 ._1ga- {
-		color: var(--ac) !important;
+		color: rgba(225, 225, 225, 0.33) !important;
 	}
 	._1gaz {
 
 		background-color: rgba(0, 0, 0, 0.22) !important;
 	}
 	div._1gaz._c24._50f6 {
-		color: var(--ac) !important;
-		filter: brightness(0.8) !important;
+		color: rgba(225, 225, 225, 0.22) !important;
+		;
 	}
 	html ._55r1 {
 		background: var(--scnr) !important;
@@ -2714,6 +2720,9 @@ domain("messenger.com") {
 		-webkit-box-shadow: none !important;
 		transition: background-color 5000s ease-in-out 0s !important;
 	}
+	input#pass {
+		background-color: transparent !important;
+	}
 	#facebook ._9nyi,
 	input#email.inputtext._55r1._6luy {
 		box-shadow: 0 0 0 1px rgb(255 255 255 / 5%) !important;
@@ -2730,5 +2739,78 @@ domain("messenger.com") {
 
 	div.l9j0dhe7.stjgntxs.ni8dbmo4.a0scvnes.cbu4d94t.j83agx80.kmp5kqmu.ns4ygwem.fykbt5ly.hgaippwi.fni8adji {
 		background-color: rgba(255, 255, 255, 0.018) !important;
+	}
+	.ggutxrqb {
+		stroke-width: 5 !important;
+	}
+	div._4-i2 {
+		background-color: var(--minr) !important;
+	}
+	._9ai5 {
+		background-color: rgba(0, 0, 0, 0.22) !important;
+	}
+	._9ai8 {
+		border: 1px solid transparent !important;
+		border-radius: 2px !important;
+		background-color: rgba(0, 0, 0, 0.22) !important;
+	}
+	._9ai7:hover ._9ai8 {
+		background-color: rgba(0, 0, 0, 0.3) !important
+	}
+	#facebook ._9aha ._31ni {
+		background-color: var(--ac) !important;
+	}
+	.sp_-Ww9-2lZPiS {
+		background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 512 512'%3E%3Cpath d='M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208s208-93.31 208-208S370.69 48 256 48zm80 224h-64v64a16 16 0 0 1-32 0v-64h-64a16 16 0 0 1 0-32h64v-64a16 16 0 0 1 32 0v64h64a16 16 0 0 1 0 32z' fill='rgba(255,255,255,0.33)'%3E%3C/path%3E%3C/svg%3E") !important;
+
+		background-size: auto !important;
+		background-repeat: no-repeat !important;
+		display: inline-block !important;
+	}
+	.sp_-Ww9-2lZPiS.sx_3813d1 {
+		background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 32 32'%3E%3Cpath d='M16 2C8.2 2 2 8.2 2 16s6.2 14 14 14s14-6.2 14-14S23.8 2 16 2zm5.4 21L16 17.6L10.6 23L9 21.4l5.4-5.4L9 10.6L10.6 9l5.4 5.4L21.4 9l1.6 1.6l-5.4 5.4l5.4 5.4l-1.6 1.6z' fill='rgba(255,255,255,0.33)'%3E%3C/path%3E%3C/svg%3E") !important;
+		background-size: auto !important;
+		background-repeat: no-repeat !important;
+		display: inline-block !important;
+		background-position: 0 !important;
+		width: 36px !important;
+		height: 36px !important;
+		margin: 0 !important;
+	}
+	._95kb {
+		padding-bottom: 0 !important;
+	}
+	div._95ke._8opy {
+		display: none !important;
+	}
+	._8icy ._8icz {
+		border-bottom: 3px solid rgba(0, 0, 0, 0.22) !important;
+	}
+
+	._4jy2 {
+		background-color: var(--positive) !important;
+		color: rgba(0, 0, 0, 1) !important;
+	}
+	._39il._97v_ ._52e0,
+	._8icy ._6lth {
+		background-color: var(--login) !important;
+		color: rgba(255, 255, 255, 0.88) !important;
+	}
+
+	img.fb_logo._8ilh.img,
+	img._97vu.img {
+		content: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 66.9 12.9' style='enable-background:new 0 0 66.9 12.9;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bclip-path:url(%23SVGID_2_);fill:rgba(106,127,235,0.7);%7D%0A%3C/style%3E%3Cg%3E%3Cdefs%3E%3Crect id='SVGID_1_' y='0' width='66.9' height='12.9'/%3E%3C/defs%3E%3CclipPath id='SVGID_2_'%3E%3Cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3E%3C/clipPath%3E%3Cpath class='st0' d='M5.2,2c-0.8,0-1,0.4-1,1.1v1.3h2.1L6.1,6.5H4.2v6.3H1.7V6.5H0V4.4h1.7V3.2C1.7,1.1,2.5,0,4.9,0 C5.4,0,6,0,6.3,0.1V2'/%3E%3Cpath class='st0' d='M6.5,8.3c0-2.3,1.1-4.1,3.4-4.1c1.3,0,2,0.6,2.4,1.5V4.4h2.4v8.3h-2.4v-1.3c-0.4,0.8-1.1,1.4-2.4,1.4 c-2.3,0-3.4-1.7-3.4-4.1 M9,8.9c0,1.2,0.5,2.1,1.6,2.1c1,0,1.6-0.8,1.6-1.9V8.2c0-1.2-0.5-1.9-1.6-1.9C9.5,6.2,9,7.1,9,8.3V8.9z'/%3E%3Cpath class='st0' d='M20,4.3c1,0,1.9,0.2,2.4,0.6l-0.6,1.8c-0.4-0.2-1-0.4-1.7-0.4c-1.4,0-2,0.8-2,2.1v0.5c0,1.3,0.6,2.1,2,2.1 c0.7,0,1.3-0.2,1.7-0.4l0.6,1.8c-0.5,0.4-1.4,0.6-2.4,0.6c-3,0-4.3-1.6-4.3-4.1V8.4C15.7,5.8,17,4.3,20,4.3'/%3E%3Cpath class='st0' d='M22.7,8.9V8.2c0-2.4,1.3-3.9,4.1-3.9c2.6,0,3.7,1.6,3.7,3.9v1.3h-5.3c0.1,1.1,0.6,1.6,2,1.6 c0.9,0,1.9-0.2,2.7-0.5l0.5,1.7c-0.7,0.3-2,0.6-3.2,0.6C23.9,12.9,22.7,11.4,22.7,8.9 M25.2,7.8h3V7.6c0-0.9-0.4-1.6-1.5-1.6 C25.7,6,25.2,6.7,25.2,7.8'/%3E%3Cpath class='st0' d='M39.9,8.9c0,2.3-1.1,4.1-3.4,4.1c-1.3,0-2.1-0.6-2.5-1.4v1.3h-2.4V0.2L34.1,0v5.6c0.4-0.7,1.2-1.3,2.3-1.3 c2.3,0,3.4,1.7,3.4,4.1 M37.4,8.3c0-1.2-0.5-2-1.7-2c-1,0-1.6,0.7-1.6,1.9V9c0,1.2,0.6,1.9,1.6,1.9c1.2,0,1.7-0.9,1.7-2V8.3z'/%3E%3Cpath class='st0' d='M40.7,8.8V8.4c0-2.4,1.4-4.1,4.1-4.1C47.6,4.3,49,6,49,8.4v0.4c0,2.4-1.4,4.1-4.1,4.1 C42.1,12.9,40.7,11.2,40.7,8.8 M46.5,8.2c0-1.1-0.5-2-1.6-2c-1.2,0-1.6,0.9-1.6,2V9c0,1.1,0.5,2,1.6,2c1.2,0,1.6-0.9,1.6-2V8.2z'/%3E%3Cpath class='st0' d='M49.8,8.8V8.4c0-2.4,1.4-4.1,4.1-4.1c2.8,0,4.1,1.7,4.1,4.1v0.4c0,2.4-1.4,4.1-4.1,4.1 C51.2,12.9,49.8,11.2,49.8,8.8 M55.6,8.2c0-1.1-0.5-2-1.6-2c-1.2,0-1.6,0.9-1.6,2V9c0,1.1,0.5,2,1.6,2c1.2,0,1.6-0.9,1.6-2V8.2z'/%3E%3Cpolyline class='st0' points='61.6,8.4 64.1,4.4 66.8,4.4 64.1,8.5 66.9,12.8 64.2,12.8 61.6,8.7 61.6,12.8 59.1,12.8 59.1,0.2 61.6,0 '/%3E%3C/g%3E%3C/svg%3E%0A") !important;
+		width: 200px !important;
+		height: auto !important;
+		margin: 0px !important;
+	}
+	img._97vu.img {
+		padding-bottom: 15px !important;
+	}
+	button#u_0_b_JC {
+		color: rgba(225, 225, 255, 0.66) !important;
+	}
+	._97vt ._30ny {
+		background-color: var(--scnr) !important;
 	}
 }
