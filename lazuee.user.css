@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          	lazuee
 @namespace     	Lazuee
-@version        1.0.5
+@version        1.0.6
 @homepageURL   	https://github.com/lazuee/stylus-theme
 @updateURL      https://github.com/lazuee/stylus-theme/raw/main/lazuee.user.css
 @description    `This is my custom made themes for Discord, Facebook, Messenger, Youtube`
@@ -9,27 +9,27 @@
 
 @advanced dropdown th "Theme" {
 	cut "Custom*" <<<EOT /*thoff*\/ EOT;
-	th1 "Theme 01 (Dark Mode)" <<<EOT :root { 
-		--minr:#131313!important; 
-		--scnr:#171717!important; 
-		--acnr:#222!important; 
-		--txnr:#c8c8c8!important;
-		--tmnr:#868686!important
-	} EOT;
-	th2 "Theme 02" <<<EOT :root {
+	th1 "Theme 01" <<<EOT :root {
 		--minr:#0c0f1d!important;
 		--scnr:#090e18!important;
 		--acnr:#5e73df!important;
 		--txnr:#bec7f0!important;
 		--tmnr:#8c93b1!important
 	} EOT;
+	th2 "Theme 02 (Dark Mode)" <<<EOT :root { 
+		--minr:#131313!important; 
+		--scnr:#171717!important; 
+		--acnr:#222!important; 
+		--txnr:#c8c8c8!important;
+		--tmnr:#868686!important
+	} EOT;
 }
 
-@advanced color min "Main color" #131313
-@advanced color scn "Secondary color" #171717
-@advanced color acn "Accent color" #222
-@advanced color txn "Text (Normal)" #c8c8c8
-@advanced color tmn "Text (Muted)" #868686
+@advanced color min "Main color" #0c0f1d
+@advanced color scn "Secondary color" #090e18
+@advanced color acn "Accent color" #5e73df
+@advanced color txn "Text (Normal)" #bec7f0
+@advanced color tmn "Text (Muted)" #8c93b1
 
 @advanced dropdown ish "Icon Shape" {
 	stc "Standard*" <<<EOT /*ishoff*\/ EOT;
