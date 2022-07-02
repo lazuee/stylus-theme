@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          	lazuee
 @namespace     	Lazuee
-@version        1.0.4
+@version        1.0.5
 @homepageURL   	https://github.com/lazuee/stylus-theme
 @updateURL      https://github.com/lazuee/stylus-theme/raw/main/lazuee.user.css
 @description    `This is my custom made themes for Discord, Facebook, Messenger, Youtube`
@@ -2411,12 +2411,12 @@ domain("messenger.com") {
 		--nav-bar-background-gradient-wash: linear-gradient(to top, #18191A, rgba(24, 25, 26, .9), rgba(24, 25, 26, .7), rgba(24, 25, 26, .4), rgba(24, 25, 26, 0));
 		--negative: var(--acnr);
 		--negative-background: var(--acnr);
-		--new-notification-background: #E7F3FF;
+		--new-notification-background: rgba(88, 89, 90, .45);
 		--non-media-pressed: rgba(68, 73, 80, 0.15);
 		--non-media-pressed-on-dark: rgba(255, 255, 255, 0.3);
 		--notification-badge: var(--ac);
-		--placeholder-icon: #8A8D91;
-		--placeholder-text: #8A8D91;
+		--placeholder-icon: rgba(79, 80, 81, .33);
+		--placeholder-text: rgba(112, 113, 114, .6);
 		--placeholder-text-on-media: rgba(255, 255, 255, 0.5);
 		--popover-background: var(--bg3);
 		--positive: /*[[oln]]*/;
@@ -2431,29 +2431,29 @@ domain("messenger.com") {
 		--primary-deemphasized-button-text: var(--primary-button-text);
 		--primary-icon: var(--pi);
 		--primary-text: var(--pt);
-		--primary-text-on-media: white;
+		--primary-text-on-media: var(--pt);
 		--primary-web-focus-indicator: #D24294;
 		--progress-ring-neutral-background: rgba(255, 255, 255, 0.2);
-		--progress-ring-neutral-foreground: #ffffff;
+		--progress-ring-neutral-foreground: #5b5b5bb8;
 		--progress-ring-on-media-background: rgba(255, 255, 255, 0.2);
-		--progress-ring-on-media-foreground: #FFFFFF;
+		--progress-ring-on-media-foreground: rgba(143, 141, 141, .78);
 		--progress-ring-blue-background: rgba(45, 136, 255, 0.2);
 		--progress-ring-blue-foreground: hsl(214, 100%, 59%);
 		--progress-ring-disabled-background: rgba(122, 125, 130, 0.2);
 		--progress-ring-disabled-foreground: #7A7D82;
-		--rating-star-active: #FF9831;
-		--scroll-thumb: rgba(255, 255, 255, 0.3);
+		--rating-star-active: rgba(255, 177, 99, .95);
+		--scroll-thumb: var(--acnr);
 		--scroll-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 -1px rgba(255, 255, 255, 0.05) inset;
 		--secondary-button-background: #0000000d;
 		--secondary-button-background-floating: var(--bg);
 		--secondary-button-background-on-dark: rgba(255, 255, 255, 0.4);
 		--secondary-button-pressed: rgba(0, 0, 0, 0.05);
 		--secondary-button-stroke: transparent;
-		--secondary-button-text: #E4E6EB;
+		--secondary-button-text: var(--txnr);
 		--secondary-icon: var(--pi);
 		--secondary-text: var(--st);
-		--secondary-text-on-media: rgba(255, 255, 255, 0.9);
-		--section-header-text: #BCC0C4;
+		--secondary-text-on-media: rgba(175, 175, 175, .59);
+		--section-header-text: rgba(188, 192, 196, .71);
 		--shadow-1: #0006;
 		--shadow-2: rgba(0, 0, 0, .24);
 		--shadow-5: #00000080;
@@ -2462,12 +2462,12 @@ domain("messenger.com") {
 		--surface-background: rgba(0, 0, 0, .23);
 		--text-highlight: rgba(24, 119, 242, 0.45);
 		--toggle-active-background: rgb(45, 136, 255);
-		--toggle-active-icon: #FFFFFF;
-		--toggle-active-text: #FFFFFF;
-		--toggle-button-active-background: #E6F2FF;
+		--toggle-active-icon: #5d5d5d73;
+		--toggle-active-text: #c7c7c7b0;
+		--toggle-button-active-background: #a8aaad85;
 		--wash: var(--bg);
 		--web-wash: var(--bg4);
-		--warning: hsl(40, 89%, 52%);
+		--warning: rgba(255, 171, 61, .95);
 		--fb-logo-color: #2D88FF;
 	}
 
