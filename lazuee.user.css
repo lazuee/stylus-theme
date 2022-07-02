@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          	lazuee
 @namespace     	Lazuee
-@version        1.0.3
+@version        1.0.4
 @homepageURL   	https://github.com/lazuee/stylus-theme
 @updateURL      https://github.com/lazuee/stylus-theme/raw/main/lazuee.user.css
 @description    `This is my custom made themes for Discord, Facebook, Messenger, Youtube`
@@ -2397,7 +2397,7 @@ domain("messenger.com") {
 		--hero-banner-background: #E85D07;
 		--hosted-view-selected-state: rgba(45, 136, 255, 0.1);
 		--highlight-bg: var(--sh2);
-		--hover-overlay: rgba(255, 255, 255, 0.1);
+		--hover-overlay: rgba(255, 255, 255, .03);
 		--media-hover: rgba(68, 73, 80, 0.15);
 		--media-inner-border: rgba(255, 255, 255, 0.05);
 		--media-outer-border: #33363A;
@@ -2726,5 +2726,9 @@ domain("messenger.com") {
 	}
 	div#u_0_9_Q4 > a {
 		color: var(--ac) !important;
+	}
+
+	div.l9j0dhe7.stjgntxs.ni8dbmo4.a0scvnes.cbu4d94t.j83agx80.kmp5kqmu.ns4ygwem.fykbt5ly.hgaippwi.fni8adji {
+		background-color: rgba(255, 255, 255, 0.018) !important;
 	}
 }
